@@ -1,0 +1,20 @@
+# EditorConfig
+# This file exists to tell most editors which basic style to use.
+# This means that all supported editors should automatically comply.
+# See https://editorconfig.org for details.
+
+root = true # top-most config
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+[*.{cpp,h}]
+indent_style = space
+indent_size = 2
+
+[CMakeLists.txt]
+indent_style = space
+indent_size = 2
